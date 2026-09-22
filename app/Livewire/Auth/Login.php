@@ -31,7 +31,7 @@ class Login extends Component
          'password' => $this-> password])){
             session()->regenerate();
 
-            return redirect()->route('movimentacao.index');
+            return redirect()->route('movimentacao.create');
          }
 
          session()->flash('error', 'Email ou senha incorretos');

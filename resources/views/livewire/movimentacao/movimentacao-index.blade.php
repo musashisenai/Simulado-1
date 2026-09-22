@@ -1,9 +1,9 @@
 <div>
     <div class="container">
-        <div class="d-flex justify-content-between align-items-center mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-4 mt-4">
             <h2 class="mb-0">Gestão de Estoque</h2>
             <div class="d-flex gap-2">
-                <a class="btn btn-secondary" href="{{ route('movimentacao.create') }}"> Movimentações </a>
+                <a class="btn btn-secondary" href="{{ route('movimentacao.create') }}"> Voltar </a>
             </div>
         </div>
         <div class="card shadow">

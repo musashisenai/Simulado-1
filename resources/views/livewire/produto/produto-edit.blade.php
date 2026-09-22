@@ -1,9 +1,13 @@
 <div>
+    <div class="container">
     <div class="card position-absolute top-50 start-50 translate-middle">
         <div class="card-body ">
 
             <form class="row g-3 " wire:submit.prevent='update'>
 
+                    <div class="d-flex align-items-center ">
+                        <h2 class="mb-0">Editar Produto</h2>
+                    </div>
                 <div class="col-12">
                     <label for="nome" class="form-label">Nome</label>
                     <input type="text" class="form-control" id="nome" placeholder="Nome" wire:model='nome'>
@@ -32,6 +36,7 @@
             <button type="submit" class="btn btn-primary">Salvar</button>
         </div>
         </form>
+    </div>
     </div>
 </div>
 </div>

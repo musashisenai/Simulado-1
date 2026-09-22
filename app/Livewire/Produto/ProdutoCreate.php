@@ -28,7 +28,7 @@ class ProdutoCreate extends Component
         ]);
         session()->flash('success', 'Produto cadastrado');
 
-        return redirect()->to('produto.index');
+        return redirect()->route('produto.index');
     }
     public function render()
     {

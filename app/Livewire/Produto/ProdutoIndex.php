@@ -20,6 +20,10 @@ class ProdutoIndex extends Component
     }
     public function render()
     {
-        return view('livewire.produto.produto-index');
+        $produtos = Produto::all();
+
+        $total_produtos = Produto::count();
+
+        return view('livewire.produto.produto-index', compact('produtos', 'total_produtos'));
     }
 }

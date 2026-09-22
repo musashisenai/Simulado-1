@@ -1,6 +1,6 @@
 <div>
     <div class="container">
-        <div class="d-flex justify-content-between align-items-center mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-4 mt-4">
             <h2 class="mb-0">Gestão de Estoque</h2>
             <div class="d-flex gap-2">
                 <a class="btn btn-secondary" href="{{ route('movimentacao.index') }}"> Movimentações </a>
@@ -15,7 +15,7 @@
 
         <div class="card mb-4">
             <div class="card-header">
-                <h5>Registrar Movimentação de Estoque</h5>
+                <h5 class="">Registrar Movimentação de Estoque</h5>
             </div>
             <div class="card-body">
                 <form wire:submit.prevent="store">
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     </div>
-                <button type="submit" class="btn btn-primary">Registrar Movimentação</button>
+                <button type="submit" class="btn btn-secondary">Registrar Movimentação</button>
                 </form>
             </div>
         </div>
